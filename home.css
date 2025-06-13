@@ -4,12 +4,6 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-@font-face{
-    font-family: mycfont;
-    src: url(/fonts/fonnts.com-taiga-webfont.woff2), url(/fonts/fonnts.com-taiga-webfont.woff);
-    font-weight: normal;
-    font-style: normal;
-}
 #intro{
     background-color: rgb(5, 59, 59);
 }
