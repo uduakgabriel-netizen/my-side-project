@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Pictures/site"
+		},
+		{
+			"path": "../HTML-basics/Box-model"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "my side projects"
+	}
+}

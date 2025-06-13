@@ -1,0 +1,301 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color:  rgb(5, 59, 59) ;
+}
+header{
+    width: 100%;
+    display: flex;
+    background-color: rgb(240, 226, 207);
+    background-color:transparent black;
+    justify-content: space-between;
+    border: 1px;
+    /* border: 3px solid;
+    border-color: teal; */
+    align-items: center;
+}
+.logo{
+    margin: 7px;
+    height: 70px;
+    border-radius:  90px;
+    /* padding-top: 47%; */
+}
+nav{    
+    /* padding-left: 30px; */
+    border-left: 3px solid;
+    border-color: teal;
+}
+
+nav a{
+    margin: 0;
+    text-decoration: none;
+    color: rgb(1, 109, 109);
+    padding-top: 45px;
+    padding-bottom: 37px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+nav a:hover{
+    background-color: teal;
+    color: antiquewhite;
+    transform: scale(1.05);
+    
+    
+}
+.directory{
+    padding: 30px;
+
+    text-decoration: none;
+    background-color: rgb(221, 207, 188);
+    width: 100%;
+    /* margin: 7px; */
+    margin-bottom: 50px;
+    padding-top: 4px;
+    padding-bottom: 7px;
+    font-size: large;
+    
+
+}
+.noline{
+    text-decoration: none;
+    font-size: 16px;
+}
+#logos{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.shrink{
+    height: 37px;
+    box-shadow: 12px;
+}
+#page1{
+    background-color:  rgb(5, 59, 59) ;
+    /* border-bottom: 3px solid antiquewhite; */
+}
+#content{
+    background-color:  rgb(5, 59, 59) ;
+    
+}
+
+h1{
+    font-size: 60px;
+    color: antiquewhite;
+    font-family: inherit;
+    text-align: center;
+    margin-bottom: 19px;
+}
+p{
+    color: antiquewhite;
+    font-weight: 70px;
+    font-size: 19px;
+}
+#des{
+    /* text-align: center; */
+    margin-bottom: 7px ;
+}
+.cont{
+    box-shadow: 1px -20px 40px 1px teal;
+    
+    padding: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    justify-self: center;
+    border: 2px solid antiquewhite;
+    border-bottom: 0px;
+    width: 70%;
+    padding-top: 10%;
+}
+.prep{
+    display: flex;
+    justify-content: space-between;
+}
+#page2{
+    background-color:  rgb(5, 59, 59) ;
+    /* border-bottom: 2px solid antiquewhite; */
+    margin: 20px;
+}
+#top{
+    height: 17vh;
+    border-radius: 100px;
+
+}
+.whole{
+    position: relative;
+    text-align: center;
+}
+.img2{
+    
+}
+.book1{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    /* border: 2px solid antiquewhite; */
+    /* width: 97%; */
+    padding-bottom: 40px;
+    border-top: 0px;
+    /* width: 90%; */
+    
+
+
+}
+#page2{
+    display: flex;
+    justify-content: center;
+}
+.img2{
+    /* height: 55vh; */
+    width: 97%;
+    border-radius: 10px;
+    
+}
+
+.left{
+    padding: 26px; 
+    width: 50%;
+    margin-left: 30px;
+    border: 2px solid wheat;
+    /* text-align: center; */
+    border-left: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    background-color:  rgb(5, 59, 59) ;
+    
+}
+.right{
+    width: 37%;
+    background-color:  rgb(5, 59, 59) ;
+    text-align: center;
+    align-content: center;
+    
+}
+#vid{
+    justify-self: center;
+}
+#ytb{
+    text-align: center;
+
+}
+h2{
+    font-size: 50px;
+    color: wheat;
+    text-align: center;
+    /* padding-bottom: 10px; */
+
+}
+h3{
+    font-size: 20px;
+    color: antiquewhite;
+    padding-top: 20px;
+    text-align: center;
+    margin: 20px;
+}
+.list{
+    font-size: 18px;
+    color: antiquewhite;
+}
+#page3{
+    background-color:  rgb(5, 59, 59) ;
+    /* border-bottom: 2px solid antiquewhite; */
+    display: flex;
+    justify-content: center;
+}
+h4{
+    font-size: 17px;
+    color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 9px;
+    margin: 5px;
+}
+.items1{
+    display: flex;
+    background-color: rgb(221, 214, 204);
+    border-radius: 30px;
+    padding: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    align-items: center;
+}
+.items1:hover{
+    background-color: rgb(87, 76, 63);
+    background-blend-mode: multiply;
+}
+.opc{
+    opacity: 50%;
+}
+#melon{
+    background-image: url(/images/melon\ 2\ edd.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#okro{
+    background-image: url(/images/okro-face.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+footer{
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 20px;
+}
+p5{
+    font-size: large;
+}
+h6{
+    font-size: 50px;
+}
+.flogo{
+    width: 15px;
+}
+.bigasslogo{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+@media screen and (max-width: 768px) {
+    header{
+        flex-direction: column;
+        text-align: center;
+        background-color: rgb(231, 221, 201);
+        border: 1px solid teal;
+    }
+    nav a{
+        color: teal;
+        font-size: 10px;
+        border: 1px solid teal;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        padding: 7px;
+        padding-bottom: 0px;
+        border-radius: 20px;
+
+    }
+    h1{
+        font-size: 30px;
+    }
+    #page2{
+        display: block;
+    }
+    #ytb{
+        width: 90%;
+    }
+    #page3{
+        display: block;
+    }
+}

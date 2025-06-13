@@ -1,0 +1,277 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(5, 59, 59);
+}
+
+#page1{
+    background-color: rgb(5, 59, 59);
+    height: 100%;
+}
+header{
+    width: 100%;
+    display: flex;
+    background-color: rgb(240, 226, 207);
+    background-color:transparent black;
+    justify-content: space-between;
+    border: 1px;
+    align-items: center;
+}
+nav{    
+    padding-left:0px;
+    padding-right: 0px;
+    border-right: 6px solid;
+    border-left: 6px solid;
+    border-color: teal;
+}
+
+.logo{
+    margin: 7px;
+    height: 70px;
+    border-radius:  90px;
+}
+nav{    
+    border-left: 3px solid;
+    border-color: teal;
+}
+
+nav a{
+    margin: 0;
+    text-decoration: none;
+    color: rgb(1, 109, 109);
+    padding-top: 45px;
+    padding-bottom: 37px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+nav a:hover{
+    background-color: teal;
+    color: antiquewhite;
+    transform: scale(1.05);
+    
+    
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    color: bisque;
+
+}
+.category{
+    text-align: center;
+    color: antiquewhite;
+    margin-top: 30px;
+    margin-bottom: 140px;
+}
+.group{
+    display: flex;
+    overflow-x: scroll;
+    text-overflow: clip;
+    margin: 12px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+
+.img{
+    height: 70vh;
+    border-radius: 140px;
+
+}
+
+.desc{
+    margin: 20px;
+    padding: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    border: 2px solid;
+}
+.desc:hover{
+    background-color: rgb(255, 241, 201);
+    color: teal;
+    
+}
+.items1{
+    display: flex;
+    background-color: rgb(221, 214, 204);
+    border-radius: 30px;
+    padding: 70px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    align-items: center;
+    text-decoration: none;
+}
+.items1:hover{
+    background-color: rgb(56, 52, 49);
+    background-blend-mode: multiply;
+}
+p{
+    font-size: 30px;
+    padding: 20px;
+    margin: 50px;
+    border: 2px solid;
+    opacity: 40%;
+    color: beige;
+}
+p2{
+    font-size: 20px;
+
+    color: beige;
+}
+.intro{
+    text-align: center;
+}
+#afang{
+    background-image: url(/images/afang\ 4.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#melon{
+    background-image: url(/images/melon\ 2\ edd.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ogbono{
+    background-image: url(/soup/ogbono/ogbono\ 4.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#oha{
+    background-image: url(/soup/oha/oha\ 3.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#okro{
+    background-image: url(/images/okro-face.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#vegetable{
+    background-image: url(/soup/vegetable/vegetable\ 2.jpeg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#white{
+    background-image: url(/soup/afia/afia\ 4.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fried{
+    background-image: url(/images/fried\ rice\ face.jpeg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#jollof{
+    background-image: url(/rice/jollof\ 2.webp);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#pepper{
+    background-image: url(/images/pepperog.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#stew{
+    background-image: url(/rice/stew\ 2.jpeg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#yellow{
+    background-image: url(/images/mtn\ 31.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#beans{
+    background-image: url(/images/beans2.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#rnb{
+    background-image: url(/images/jollofrnb.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+footer{
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 20px;
+}
+p5{
+    font-size: large;
+}
+h6{
+    font-size: 50px;
+}
+.flogo{
+    width: 15px;
+}
+.bigasslogo{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+@media screen and (max-width: 768px) {
+    header{
+        flex-direction: column;
+        text-align: center;
+        background-color: rgb(231, 221, 201);
+        border: 1px solid teal;
+    }
+    header{
+        width: 100%;
+    }
+    nav a{
+        color: teal;
+        font-size: 10px;
+        border: 1px solid teal;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        padding: 7px;
+        padding-bottom: 0px;
+        border-radius: 20px;
+
+    }
+    .category{
+        width: 90%;
+    }
+    .group{
+        width: 100%;
+    }
+    .items1{
+        width: 100%;
+    }
+    p{
+        font-size-adjust: 20% ;
+
+        opacity: 100%;
+    }
+}
